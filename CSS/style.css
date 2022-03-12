@@ -11,7 +11,7 @@
     opacity: 1;
     height: 50px;
     margin: -8px;
-    background-image: url('/images/hostgator-logo@2x.png');
+    background-image: url('./images/hostgator-logo@2x.png');
     background-repeat: no-repeat;
     background-size: 14%;
     background-position: 20%;
