@@ -1,0 +1,454 @@
+/* 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*/
+
+.logo {
+    background: #FFFFFF;
+    opacity: 1;
+    height: 50px;
+    margin: -8px;
+    background-image: url('/images/hostgator-logo@2x.png');
+    background-repeat: no-repeat;
+    background-size: 14%;
+    background-position: 20%;
+}
+
+.fundos {
+    background-color: #1D5297;
+    margin: -8px;
+
+}
+
+.image1 {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    left: 72%;
+    top: 280%;
+
+}
+
+.image2 {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    left: -3%;
+    top: 280%;
+}
+
+@media(max-width: 800px) {
+    .image1 {
+        display: none;
+    }
+}
+
+@media(max-width: 1200px) {
+    .image2 {
+        display: none;
+    }
+}
+
+
+
+.titulo {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    letter-spacing: 1.6px;
+    color: #B9D0EF;
+    opacity: 1;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.titulo3 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #B9D0EF;
+    opacity: 1;
+
+}
+
+.check {
+    max-width: 10px;
+    max-height: 10px;
+    position: relative;
+    left: -2px;
+    top: 2px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo4 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #B9D0EF;
+    opacity: 1;
+
+}
+
+.check1 {
+    max-width: 10px;
+    max-height: 10px;
+    position: relative;
+    left: 1px;
+}
+
+
+.titulo5 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #B9D0EF;
+    opacity: 1;
+}
+
+.check2 {
+    max-width: 10px;
+    max-height: 10px;
+    position: relative;
+    left: 150px;
+}
+
+.escolha {
+    display: flex;
+    justify-content: center;
+}
+
+.seta1 {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    left: 49%;
+    top: -40px;
+}
+
+.titulo6 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 0px;
+    color: #1D5297;
+    opacity: 1;
+    position: relative;
+    left: 0%;
+    top: -60px;
+}
+
+.botao {
+    position: relative;
+    top: -70px;
+    left: 800px;
+    width: 16%;
+    height: 1%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 4px #4480C570;
+    border: 1px solid #1D5297;
+    border-radius: 21px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao1 {
+    top: 531px;
+    left: 797px;
+    width: 108px;
+    height: 41px;
+    color: #1D5297;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    opacity: 1;
+    border-color: #FFFFFF;
+    background-image: url(../images/Selection\ Control\ -\ Radio\ -\ Off\ -\ Enabled.png);
+    background-size: 14%;
+    background-position: 15%;
+    border: 1px solid #ffffff;
+
+}
+
+.botao1:hover {
+    color: #ffffff;
+    background-color: #1D5297;
+    cursor: pointer;
+    background-image: url(../images/Selection\ Control\ -\ Radio\ -\ On\ -\ Enabled.png);
+    background-size: 14%;
+    background-position: 15%;
+}
+
+
+.botao2 {
+    top: 542px;
+    left: 951px;
+    width: 108px;
+    height: 41px;
+    color: #1D5297;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    opacity: 1;
+    border-color: #FFFFFF;
+    background-image: url(../images/Selection\ Control\ -\ Radio\ -\ Off\ -\ Enabled.png);
+    background-size: 14%;
+    background-position: 15%;
+    border: 1px solid #ffffff;
+}
+
+.botao2:hover {
+    color: #ffffff;
+    background-color: #1D5297;
+    cursor: pointer;
+    background-image: url(../images/Selection\ Control\ -\ Radio\ -\ On\ -\ Enabled.png);
+    background-size: 14%;
+    background-position: 15%;
+}
+
+.botao3 {
+    top: 542px;
+    left: 1050px;
+    width: 108px;
+    height: 41px;
+    color: #1D5297;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    opacity: 1;
+    border-color: #FFFFFF;
+    border: 1px solid #ffffff;
+    background-image: url(../images/Selection\ Control\ -\ Radio\ -\ Off\ -\ Enabled.png);
+    background-size: 14%;
+    background-position: 15%;
+}
+
+.botao3:hover {
+    color: #ffffff;
+    background-color: #1D5297;
+    cursor: pointer;
+    background-image: url(../images/Selection\ Control\ -\ Radio\ -\ On\ -\ Enabled.png);
+    background-size: 14%;
+    background-position: 15%;
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
+}
+
+.plano1 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DFECFF;
+    border-radius: 4px;
+    opacity: 1;
+    margin-inline: 10px;
+
+}
+
+.nomeplan1 {
+    position: relative;
+    top: 3%;
+    left: 1%;
+    width: 329px;
+    height: 26px;
+    text-align: center;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #1D5297;
+    opacity: 1;
+}
+
+.line1 {
+    width: 100%;
+    border: 1px solid #F1F6FB;
+
+
+}
+
+.vapi {
+    display: flex;
+    justify-content: center;
+}
+
+.vreal {
+    font-size: 10px;
+    text-align: center;
+    text-decoration: line-through;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.vdesc {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.eq1 {
+    position: relative;
+    left: 0%;
+    top: -25px;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.vplan1 {
+    position: relative;
+    left: 1%;
+    top: -5%;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #1D5297;
+    display: flex;   
+}
+
+.botaocompre {
+    width: 279px;
+    height: 52px;
+    background: #4480C5;
+    color: #FFFFFF;
+    border-radius: 26px;
+    opacity: 1;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    text-align: center;
+    position: relative;
+    left: 7%;
+    top: -4%;
+    border: 1px solid #ebe8e8;
+    cursor: pointer;
+
+}
+
+.dominiofree {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+    left: -7%;
+    top: -3%;
+    background-image: url(../images/Componente\ 4.png);
+    background-repeat: no-repeat;
+    background-size: 4%;
+    background-position: 76%;
+
+}
+
+.economize {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -5%;
+    left: 1%;
+}
+
+.economize1 {
+    position: relative;
+    top: 1%;
+    left: -15%;
+    text-align: left;
+    font: normal normal normal 10px/14px;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #1D5297;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.economize2 {
+    position: relative;
+    top: 1%;
+    left: 1%;
+    width: 25%;
+    height: 80%;
+    background: #51C99C 0% 0% no-repeat padding-box;
+    border-radius: 224px;
+    text-align: center;
+    font: normal normal bold 14px/18px;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 14px;
+    
+}
+
+.lista {
+    position: relative;
+    left: 15%;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    text-align: left;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    padding: 1%;
+
+}
+
+
+.plano2 {
+    top: 629px;
+    left: 793px;
+    width: 331px;
+    height: 650px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DFECFF;
+    border-radius: 4px;
+    opacity: 1;
+    margin-inline: 10px;
+}
+
+.plano3 {
+    top: 629px;
+    left: 793px;
+    width: 331px;
+    height: 650px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DFECFF;
+    border-radius: 4px;
+    opacity: 1;
+    margin-inline: 10px;
+}
+
+.imgp1 {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    left: 45%;
+    top: 5%;
+    opacity: 1;
+}
