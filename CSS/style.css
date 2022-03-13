@@ -11,7 +11,7 @@
     opacity: 1;
     height: 50px;
     margin: -8px;
-    background-image: url('../images/hostgator-logo@2x.png');
+    background-image: url('../images/hostgator-logo.png');
     background-repeat: no-repeat;
     background-size: 14%;
     background-position: 20%;
@@ -46,8 +46,8 @@
     }
 }
 
-@media(max-width: 1200px) {
-    .image2 {
+@media(max-width: 1300px) {
+    .image2 { 
         display: none;
     }
 }
@@ -136,11 +136,14 @@
 }
 
 .seta1 {
-    max-width: 100%;
-    max-height: 100%;
+    width: auto;
+    height: auto;
+    max-width: 45px;
     position: relative;
-    left: 49%;
-    top: -40px;
+    margin: 0 auto 0 auto;
+    top: -35px;
+    display: flex;
+    justify-content: center;
 }
 
 .titulo6 {
@@ -152,23 +155,26 @@
     opacity: 1;
     position: relative;
     left: 0%;
-    top: -60px;
+    top: -35px;
+    margin: 0 auto 0 auto;
 }
 
 .botao {
-    position: relative;
-    top: -70px;
-    left: 800px;
-    width: 16%;
-    height: 1%;
+    max-width:250px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    background: #4d5f8d; 
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 2px 4px #4480C570;
     border: 1px solid #1D5297;
     border-radius: 21px;
-    opacity: 1;
     display: flex;
     justify-content: center;
-
+    margin: 0 auto 0 auto;
+    padding-bottom: -1%;
+    position: relative;
+    top: -20px;
 }
 
 .botao1 {
@@ -323,13 +329,13 @@
 
 .vplan1 {
     position: relative;
-    left: 1%;
+    left: 25%;
     top: -5%;
     font-size: 20px;
     font-family: 'Montserrat';
     letter-spacing: 0px;
     color: #1D5297;
-    display: flex;   
+    display: flex;
 }
 
 .botaocompre {
